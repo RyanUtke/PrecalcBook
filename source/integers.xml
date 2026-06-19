@@ -60,6 +60,17 @@
         <p>Every good mathematician or computer scientist knows that looking at problems recursively, as opposed to explicitly, often results in better understanding of complex issues.</p>
     </section>
 
+    <section xml:id="The Rationals">
+    <title>
+        The Rationals <m>\mathbb{Q}</m>
+    </title>
+
+    <p>
+    Now we can solve linear equations... almost...
+    </p>
+        
+    </section>
+    
 <exercises>
 
   <title>Exercises</title>
