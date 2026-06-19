@@ -1,84 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<!--********************************************************************
-Copyright 2015 Robert A. Beezer
-
-This file is part of MathBook XML.
-
-MathBook XML is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 2 or version 3 of the
-License (at your option).
-
-MathBook XML is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
-*********************************************************************-->
-<!-- This file was originally part of the book     -->
-<!-- (as copied on 2015/07/12)                     -->
-<!--                                               -->
-<!--   Abstract Algebra: Theory and Applications   -->
-<!--                                               -->
-<!-- Copyright (C) 1997-2014  Thomas W. Judson     -->
-
 <chapter xml:id="integers" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>The Integers</title>
+    <title>Number Systems</title>
 
     <introduction>
-        <p>The integers are the building blocks of mathematics. In this chapter we will investigate  the fundamental properties of the integers, including mathematical induction, the division algorithm, and the Fundamental Theorem of Arithmetic.</p>
+        <p>The integers is the basic number system we are all familiar with, positive and negative whole numbers, and zero. We can solve any additive equation in this system.</p>
     </introduction>
 
-    <section xml:id="section-math-induction">
-        <title>Mathematical Induction and Math in a Title <m>A\notsubset B</m></title>
+    <section xml:id="The Integers">
+        <title>The Integers <m>\mathbb{Z}</m></title>
 
-        <p>Suppose we wish to show that
-            <md>1 + 2 + \cdots + n = \frac{n(n + 1)}{2}</md>
-        for any natural number <m>n</m>. This formula is easily  verified for small numbers such as <m>n = 1</m>, 2, 3, or 4, but it is impossible to verify for all natural numbers on a case-by-case basis.  To prove the formula true in general, a more generic method is required.</p>
-
-        <p>Suppose we have verified the equation for the first <m>n</m> cases.  We will attempt to show that we can generate the formula for the <m>(n + 1)</m>th case from this knowledge.  The formula is true for <m>n = 1</m> since 
-            <md>1 = \frac{1(1 + 1)}{2}</md>.
-        If we have verified the first <m>n</m> cases, then<md>
-            <mrow>1 + 2 + \cdots + n + (n + 1) &amp; = \frac{n(n + 1)}{2} + n + 1</mrow>
-            <mrow>&amp; = \frac{n^2 + 3n + 2}{2}</mrow>
-            <mrow>&amp; = \frac{(n + 1)[(n + 1) + 1]}{2}</mrow>
-        </md>.</p>
-
-        <p>This is exactly the formula for the <m>(n + 1)</m>th case.</p>
-
-        <p>This method of proof is known as <term>mathematical induction</term>.  Instead of attempting to verify a statement about some subset <m>S</m> of the positive integers <m>{\mathbb N}</m> on a case-by-case basis, an impossible task if <m>S</m> is an infinite set, we give a specific proof for the smallest integer being considered, followed by a generic argument showing that if the statement holds for a given case, then it must also hold for the next  case in the sequence.  We summarize mathematical induction in the following axiom. </p>
-
+        <p>The integers are the basic number system we are all familiar with, positive and negative whole numbers, and zero. We can solve any additive equation in this system.</p>
+        
         <principle>
-            <title>First Principle of Mathematical Induction</title>
+            <title>Additive equations</title>
             <idx><h>Induction</h><h>first principle of</h></idx>
             <statement>
                 <p>Let <m>S(n)</m> be a statement about integers for  <m>n \in {\mathbb N}</m> and suppose <m>S(n_0)</m> is true for some integer <m>n_0</m>.  If for all integers <m>k</m> with <m>k \geq n_0</m>, <m>S(k)</m> implies that <m>S(k+1)</m> is true, then <m>S(n)</m> is true for all integers <m>n</m> greater than or equal to <m>n_0</m>.</p>
             </statement>
         </principle>
 
-        <!-- wording change.  Suggested by P. Diethelm.  TWJ 22/4/2013 -->
-
-        <example xml:id="example-integers-induction-greater-than">
-            <title>An Inequality for Powers of <m>2</m></title>
-            <p>For all integers <m>n \geq 3</m>, <m>2^n \gt n + 4</m>. Since
-                <md>8 = 2^3 \gt 3 + 4 = 7</md>,
-            the statement is true for <m>n_0 = 3</m>.  Assume that <m>2^k \gt k + 4</m> for <m>k \geq 3</m>.  Then <m>2^{k + 1} = 2 \cdot 2^{k} \gt 2(k + 4)</m>.  But 
-                <md>2(k + 4) = 2k + 8 \gt k + 5 = (k + 1) + 4</md>
-            since <m>k</m> is positive.  Hence, by induction, the statement holds for all integers <m>n \geq 3</m>.</p>
+        <example xml:id="additive-equations">
+            <title>Well...</title>
+            <p>stuff</p>
         </example>
 
 
-        <example xml:id="example-integers-induction-divisible">
-            <title>Some Integers Divisible by <m>9</m></title>
-            <p>Every integer <m>10^{n + 1} + 3 \cdot 10^n + 5</m> is divisible by 9 for <m>n \in {\mathbb N}</m>.  For <m>n = 1</m>, 
-                <md>10^{1 + 1} + 3 \cdot 10 + 5 = 135 = 9 \cdot 15</md>
-            is divisible by 9.  Suppose that <m>10^{k + 1} + 3 \cdot 10^k + 5</m> is divisible by 9 for <m>k \geq 1</m>.  Then<md>
-                <mrow>10^{(k + 1) + 1} + 3 \cdot 10^{k + 1} + 5&amp; = 10^{k + 2} + 3 \cdot 10^{k + 1} + 50 - 45</mrow>
-                <mrow>&amp; = 10 (10^{k + 1} + 3 \cdot 10^{k} + 5) - 45</mrow>
-            </md>is divisible by 9.</p>
+        <example xml:id="unsolvable-linear-equations">
+            <title>An unsolvable linear equation (over the integers)</title>
+            <p>I dunno, 
+                <md>3\cdot x + 2 = 16</md>
+            </p>
         </example>
 
         <example xml:id="example-integers-binomial-theorem">
@@ -104,57 +56,6 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <mrow>&amp;  = \sum_{k = 0}^{n + 1}   \binom{n + 1}{k} a^k b^{n + 1- k}</mrow>
             </md>.</p>
         </example>
-
-        <p>We have an equivalent statement of the Principle of Mathematical Induction that is often very useful.</p>
-
-        <principle>
-            <title>Second Principle of Mathematical Induction</title>
-            <idx><h>Induction</h><h>second principle of</h></idx>
-            <statement>
-                <p>Let <m>S(n)</m> be a statement about integers for  <m>n \in {\mathbb N}</m> and suppose <m>S(n_0)</m> is true for some integer <m>n_0</m>.  If <m>S(n_0), S(n_0 + 1), \ldots, S(k)</m> imply that <m>S(k + 1)</m> for <m>k \geq n_0</m>, then the statement <m>S(n)</m> is true for all integers <m>n \geq n_0</m>. </p>
-            </statement>
-        </principle>		
-
-        <!-- wording change.  Suggested by P. Diethelm.  TWJ 22/4/2013 -->
-
-        <p>A  nonempty subset <m>S</m> of <m>{\mathbb Z}</m> is <term>well-ordered</term><idx><h>Well-ordered set</h></idx> if <m>S</m> contains a least element.  Notice that the set <m>{\mathbb Z}</m> is not well-ordered since it does not contain a smallest element.  However, the natural numbers are well-ordered.</p> 
-
-        <principle>
-            <title>Principle of Well-Ordering</title>
-            <statement>
-                <p>Every nonempty subset of the natural numbers is well-ordered.</p>
-            </statement>
-        </principle>		
-
-        <p>The Principle of Well-Ordering is equivalent to the Principle of Mathematical Induction.</p> 
-
-        <lemma xml:id="lemma-integers-smallest-number">
-            <statement>
-                <p>The Principle of Mathematical Induction implies that <m>1</m> is the least positive natural number.</p>
-            </statement>
-            <proof>
-                <p>Let <m>S = \{ n \in {\mathbb N} : n \geq 1 \}</m>. Then <m>1 \in S</m>.  Now assume that <m>n \in S</m>; that is, <m>n \geq 1</m>.  Since <m>n+1 \geq 1</m>, <m>n+ 1 \in S</m>; hence, by induction, every natural number is greater than or equal to 1.</p>
-            </proof>
-        </lemma>
-
-        <!--  Theorem reworded for clarity.  TWJ 12/17/2011 -->
-        <!--  Suggested by K. Halasz and R. Beezer. -->
-
-        <theorem xml:id="theorem-integers-pmi-implies-pwo">
-            <statement>
-                <p>The Principle of Mathematical Induction implies the Principle of Well-Ordering.  That is, every nonempty subset of <m>\mathbb N</m> contains a least element.</p>
-            </statement>
-            <proof>
-                <p>We must show that if <m>S</m> is a nonempty subset of the natural numbers, then <m>S</m> contains a least element.  If <m>S</m> contains 1, then the theorem is true by <xref ref="lemma-integers-smallest-number" />.  Assume that if <m>S</m> contains an integer <m>k</m> such that <m>1 \leq k \leq n</m>, then <m>S</m> contains a least element.  We will show that if a set <m>S</m> contains an integer less than or equal to <m>n + 1</m>, then <m>S</m> has a least element.  If <m>S</m> does not contain an integer less than <m>n+1</m>, then <m>n+1</m> is the smallest integer in <m>S</m>.  Otherwise, since <m>S</m> is nonempty, <m>S</m> must contain an integer less than or equal to <m>n</m>. In this case, by induction, <m>S</m> contains a least element.</p>
-            </proof>
-        </theorem>
-
-        <!-- wording change.  Suggested by P. Diethelm.  TWJ 22/4/2013 -->
-
-        <p>Induction can also be very useful in formulating definitions. For instance, there are two ways to define <m>n!</m>, the factorial of a positive integer <m>n</m>.<ul>
-            <li><p>The <em>explicit</em> definition: <m>n! = 1 \cdot 2 \cdot 3 \cdots (n - 1) \cdot n</m>.</p></li>
-            <li><p>The <em>inductive</em> or <em>recursive</em> definition: <m>1! = 1</m> and <m>n! = n(n - 1)!</m> for <m>n \gt 1</m>.</p></li>
-        </ul></p>
 
         <p>Every good mathematician or computer scientist knows that looking at problems recursively, as opposed to explicitly, often results in better understanding of complex issues.</p>
     </section>
