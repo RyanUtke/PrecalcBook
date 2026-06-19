@@ -7,7 +7,7 @@
         <p>The integers is the basic number system we are all familiar with, positive and negative whole numbers, and zero. We can solve any additive equation in this system.</p>
     </introduction>
 
-    <section xml:id="The Integers">
+    <section xml:id="the-integers">
         <title>The Integers <m>\mathbb{Z}</m></title>
 
         <p>The integers are the basic number system we are all familiar with, positive and negative whole numbers, and zero. We can solve any additive equation in this system.</p>
@@ -60,7 +60,7 @@
         <p>Every good mathematician or computer scientist knows that looking at problems recursively, as opposed to explicitly, often results in better understanding of complex issues.</p>
     </section>
 
-    <section xml:id="The Rationals">
+    <section xml:id="the-rationals">
     <title>
         The Rationals <m>\mathbb{Q}</m>
     </title>
