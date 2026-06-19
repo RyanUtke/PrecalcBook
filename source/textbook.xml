@@ -15,11 +15,11 @@ This is also an attempt to become familiar with PreTeXt, a markdown language par
 
 <!-- <subtitle></subtitle> -->
 
-<!-- <xi:include href="./frontmatter.xml" />             <!-- Title Page, Preface, etc. --> -->
+<!-- <xi:include href="./frontmatter.xml" /> -->
 
 <xi:include href="./integers.xml" />                <!-- Integers -->
 
-<!-- <xi:include href="./backmatter.xml" />                  <!-- GFDL, Hints, Notation --> -->
+<!-- <xi:include href="./backmatter.xml" /> -->
 
 </book>
 
