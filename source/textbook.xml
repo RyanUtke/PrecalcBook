@@ -7,7 +7,7 @@ This is also an attempt to become familiar with PreTeXt, a markdown language par
 
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
 
-<!-- <xi:include href="./bookinfo.xml" /> <!-- ISBN, website, other metadata --> -->
+<!-- <xi:include href="./bookinfo.xml" /> -->
 
 <book xml:id="textbook">
 
