@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project>
+<project ptx-version="2">
   <targets>
-    <target name="html">
-      <format>html</format>
+    <target name="html" format="html">
       <source>source/textbook.xml</source>
       <publication>publication.xml</publication>
       <output-dir>output/html</output-dir>
