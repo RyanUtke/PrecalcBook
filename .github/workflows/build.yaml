@@ -18,6 +18,9 @@ jobs:
       - name: Build
         run: pretext build html
 
+      - name: Show output
+        run: find output -type f | head -50
+      
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
