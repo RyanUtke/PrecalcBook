@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project ptx-version="2">
   <targets>
-    <target name="html" format="html" source="textbook.xml" publication="publication.xml" output-dir="output/html"/>
+    <target name="html" format="html" source="textbook.xml" publication="publication.xml" output-dir="html"/>
   </targets>
 </project>
