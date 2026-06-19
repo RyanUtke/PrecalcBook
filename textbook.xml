@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This is an attempt to write an accessible interactive textbook on precalculus material.
+
+This is also an attempt to become familiar with PreTeXt, a markdown language particularly suited towards communicating mathematics (supposedly).
+-->
+
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+<!-- <xi:include href="./bookinfo.xml" /> <!-- ISBN, website, other metadata --> -->
+
+<book xml:id="textbook">
+
+<title>Precalculus</title>
+
+<!-- <subtitle></subtitle> -->
+
+<xi:include href="./frontmatter.xml" />             <!-- Title Page, Preface, etc. -->
+
+<xi:include href="./integers.xml" />                <!-- Integers -->
+
+<xi:include href="./backmatter.xml" />                  <!-- GFDL, Hints, Notation -->
+
+</book>
+
+</pretext>
