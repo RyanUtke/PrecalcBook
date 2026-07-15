@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<chapter xml:id="integers" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Number Systems</title>
+<chapter xml:id="graphing" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Graphing Functions</title>
 
     <introduction>
         <p>The integers is the basic number system we are all familiar with, positive and negative whole numbers, and zero. We can solve any additive equation in this system.</p>
