@@ -17,7 +17,7 @@ This is also an attempt to become familiar with PreTeXt, a markdown language par
 
 <xi:include href="./frontmatter.xml" />
 
-<xi:include href="./integers.xml" />                <!-- Integers -->
+<xi:include href="./number-systems.xml" />                <!-- Integers -->
 
 <xi:include href="./backmatter.xml" />
 
