@@ -53,7 +53,7 @@
     <p>Various people</p>
   </acknowledgement>
 
-  <preface xml:id="preface>
+  <preface xml:id="preface">
     <p>This text is designed to introduce all the material necessary to learn calculus.</p>
 
     <image xml:id="preface-dependencies">
