@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<backmatter xml:id="backmatter">
+  <title>Back Matter</title>
+
+  <appendix>
+    <title>Notation</title>
+
+    <notation-list />
+  </appendix>
+
+  <solutions divisional="hint answer solution">
+    <title>Hints and Answers to Selected Exercises</title>
+  </solutions>
+
+  <appendix>
+    <title>Appendix</title>
+    <introduction><p>Some stuff</p></introduction>
+    <section>
+      <title>Some Stuff</title>
+      <introduction><p>Yet more</p></introduction>
+      <subsection>
+        <title>stufff</title>
+      </subsection>
+    </section>
+  </appendix>
+
+  <index>
+    <index-list />
+  </index>
+
+  <colophon xml:id="back-colophon>
+   <p> Authored in PreTeXt.</p>  
+  </colophon>
+
+
+</backmatter>
