@@ -56,6 +56,7 @@
   <preface xml:id="preface">
     <p>This text is designed to introduce all the material necessary to learn calculus.</p>
 
+<!--
     <image xml:id="preface-dependencies">
       <latex-image>
         <![CDATA[
@@ -138,7 +139,9 @@
                 \end{tikzpicture}]]>
      </latex-image>
     </image>
+-->
 
+    
     <attribution>
       <line>Ryan Utke</line>
     </attribution>
