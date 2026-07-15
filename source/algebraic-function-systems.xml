@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<chapter xml:id="functions" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Function Systems</title>
+<chapter xml:id="alg-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Algebraic Function Systems</title>
 
     <introduction>
         <p>Polynomial, rational, and algebraic functions are vaguely familiar systems. We also must expand to include exponential, logarithmic, and trigonometric functions.</p>
