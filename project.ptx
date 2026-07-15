@@ -9,10 +9,12 @@
       source="textbook.xml" 
       publication="publication.xml" 
       output-dir="html"/>
+<!--
     <target name="pdf"
       format="pdf"
       source="textbook.xml"
       publication="publication.xml"
       output-dir="pdf"/>
+-->
   </targets>
 </project>
