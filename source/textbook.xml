@@ -19,6 +19,12 @@ This is also an attempt to become familiar with PreTeXt, a markdown language par
 
 <xi:include href="./number-systems.xml" />                <!-- Integers -->
 
+<xi:include href="./algebraic-function-systems.xml" />
+
+<xi:include href="./graphing-functions.xml" />
+
+<xi:include href="./transcendental-function-systems.xml" />
+
 <xi:include href="./backmatter.xml" />
 
 </book>
