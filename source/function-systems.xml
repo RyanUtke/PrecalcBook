@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<chapter xml:id="functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Function Systems</title>
+
+    <introduction>
+        <p>Polynomial, rational, and algebraic functions are vaguely familiar systems. We also must expand to include exponential, logarithmic, and trigonometric functions.</p>
+    </introduction>
+
+    <section xml:id="polynomials">
+        <title>Polynomials</title>
+
+        <p>A polynomial (in a ring <m>R</m>) is a finitely supported sequence in <m>R</m> with addition given component-wise and multiplication given by convolution (with respect to <m>(\mathbb{N},+)</m>)</p>
+        
+        <principle>
+            <title>Additive equations</title>
+            <idx><h>Induction</h><h>first principle of</h></idx>
+            <statement>
+                <p>Let <m>S(n)</m> be a statement about integers for  <m>n \in {\mathbb N}</m> and suppose <m>S(n_0)</m> is true for some integer <m>n_0</m>.  If for all integers <m>k</m> with <m>k \geq n_0</m>, <m>S(k)</m> implies that <m>S(k+1)</m> is true, then <m>S(n)</m> is true for all integers <m>n</m> greater than or equal to <m>n_0</m>.</p>
+            </statement>
+        </principle>
+
+        <example xml:id="additive-equations">
+            <title>Well...</title>
+            <p>stuff</p>
+        </example>
+
+
+        <example xml:id="unsolvable-linear-equations">
+            <title>An unsolvable linear equation (over the integers)</title>
+            <p>I dunno, 
+                <md>3\cdot x + 2 = 16</md>
+            </p>
+        </example>
+
+        <example xml:id="example-integers-binomial-theorem">
+            <title>The Binomial Theorem</title>
+            <p>We will prove the binomial theorem using mathematical induction; that is, <md>(a + b)^n = \sum_{k = 0}^{n} \binom{n}{k} a^k b^{n - k}</md>, where <m>a</m> and <m>b</m> are real numbers, <m>n \in \mathbb{N}</m>, and <md>\binom{n}{k} = \frac{n!}{k! (n - k)!}</md> is the binomial coefficient.  We first show that <md>\binom{n + 1}{k} = \binom{n}{k} + \binom{n}{k - 1}</md>. This result follows from<md>
+                <mrow>\binom{n}{k} + \binom{n}{k - 1} &amp; = \frac{n!}{k!(n - k)!} +\frac{n!}{(k-1)!(n - k + 1)!}</mrow>
+                <mrow>&amp; = \frac{(n + 1)!}{k!(n + 1 - k)!}</mrow>
+                <mrow>&amp; =\binom{n + 1}{k}</mrow>
+            </md>.<notation>
+                <usage><m>n!</m></usage>
+                <description><m>n</m> factorial</description>
+            </notation><notation>
+                <usage><m>\binom{n}{k}</m></usage>
+                <description>binomial coefficient <m>n!/(k!(n-k)!)</m></description>
+            </notation></p>
+
+            <p>If <m>n = 1</m>, the binomial theorem is easy to verify. Now assume that the result is true for <m>n</m> greater than or equal to 1.  Then<md>
+                <mrow>(a + b)^{n + 1} &amp; = (a + b)(a + b)^n</mrow>
+                <mrow>&amp; = (a + b) \left( \sum_{k = 0}^{n} \binom{n}{k} a^k b^{n - k}\right)</mrow>
+                <mrow>&amp; = \sum_{k = 0}^{n} \binom{n}{k} a^{k + 1} b^{n - k} + \sum_{k = 0}^{n} \binom{n}{k} a^k b^{n + 1 - k}</mrow>
+                <mrow>&amp; = a^{n + 1} + \sum_{k = 1}^{n} \binom{n}{k - 1} a^{k} b^{n + 1 - k} + \sum_{k = 1}^{n} \binom{n}{k}  a^k b^{n + 1 - k} + b^{n + 1}</mrow>
+                <mrow>&amp;  = a^{n + 1} + \sum_{k = 1}^{n} \left[ \binom{n}{k - 1} + \binom{n}{k} \right]a^k b^{n + 1 - k} + b^{n + 1}</mrow>
+                <mrow>&amp;  = \sum_{k = 0}^{n + 1}   \binom{n + 1}{k} a^k b^{n + 1- k}</mrow>
+            </md>.</p>
+        </example>
+
+        <p>Every good mathematician or computer scientist knows that looking at problems recursively, as opposed to explicitly, often results in better understanding of complex issues.</p>
+    </section>
+
+    <section xml:id="the-rationals">
+    <title>
+        The Rationals <m>\mathbb{Q}</m>
+    </title>
+
+    <p>
+    Now we can solve linear equations... almost...
+    </p>
+        
+    </section>
+    
+<exercises>
+
+  <title>Exercises</title>
+
+  <exercise>
+  <statement>
+  <p>Write a computer program that will implement the Euclidean algorithm.  The program should accept two positive integers <m>a</m> and <m>b</m> as input and should output <m>\gcd( a,b)</m> as well as integers <m>r</m> and <m>s</m> such that 
+  <md>\gcd( a,b) = ra + sb</md>.</p>
+  </statement>
+  </exercise>
+
+</exercises>
+  
+<references>
+
+  <title>References and Suggested Readings</title>
+  
+  <!-- References updated  -->
+
+  <biblio type="raw"> <!-- was [1] -->
+  Author 
+  <title>Title</title>
+  Publisher
+  </biblio>
+  
+  </references>
+
+</chapter>
