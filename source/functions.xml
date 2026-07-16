@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<chapter xml:id="functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Functions and their Representations</title>
+
+    <introduction>
+        <p>The function concept ('action' to 'process' to 'object'), numerically, formulaically, graphically</p>
+    </introduction>
+
+    <section xml:id="function-concept">
+        <title>The Integers <m>\mathbb{Z}</m></title>
+
+        <p>The integers are the basic number system we are all familiar with, positive and negative whole numbers, and zero. We can solve any additive equation in this system.</p>
+        
+        <example xml:id="example-integers-binomial-theorem">
+            <title>The Binomial Theorem</title>
+            <p>We will prove the binomial theorem using mathematical induction; that is, <md>(a + b)^n = \sum_{k = 0}^{n} \binom{n}{k} a^k b^{n - k}</md>, where <m>a</m> and <m>b</m> are real numbers, <m>n \in \mathbb{N}</m>, and <md>\binom{n}{k} = \frac{n!}{k! (n - k)!}</md> is the binomial coefficient.  We first show that <md>\binom{n + 1}{k} = \binom{n}{k} + \binom{n}{k - 1}</md>. This result follows from<md>
+                <mrow>\binom{n}{k} + \binom{n}{k - 1} &amp; = \frac{n!}{k!(n - k)!} +\frac{n!}{(k-1)!(n - k + 1)!}</mrow>
+                <mrow>&amp; = \frac{(n + 1)!}{k!(n + 1 - k)!}</mrow>
+                <mrow>&amp; =\binom{n + 1}{k}</mrow>
+            </md>.<notation>
+                <usage><m>n!</m></usage>
+                <description><m>n</m> factorial</description>
+            </notation><notation>
+                <usage><m>\binom{n}{k}</m></usage>
+                <description>binomial coefficient <m>n!/(k!(n-k)!)</m></description>
+            </notation></p>
+
+    </section>
+
+    <section xml:id="representations">
+    <title>
+        The Rationals <m>\mathbb{Q}</m>
+    </title>
+
+    </section>
+
+    </section>
+
+    <section xml:id="graphing">
+    <title>
+        Graphing functions
+    </title>
+
+    </section>
+
+
+
+<exercises>
+
+  <title>Exercises</title>
+
+</exercises>
+  
+<references>
+
+  <title>References and Suggested Readings</title>
+  
+  <!-- References updated  -->
+
+  <biblio type="raw"> <!-- was [1] -->
+  Author 
+  <title>Title</title>
+  Publisher
+  </biblio>
+  
+  </references>
+
+</chapter>
