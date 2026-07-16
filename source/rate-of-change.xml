@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<chapter xml:id="rate-of-change" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Rates of Change</title>
+
+    <introduction>
+        <p>Average rate of change, increasing, decreasing, concavity</p>
+    </introduction>
+
+    <section xml:id="avg-roc">
+        <title>Average Rate of Change <m>\mathbb{Z}</m></title>
+    </section>
+    
+<exercises>
+
+  <title>Exercises</title>
+  
+</exercises>
+  
+<references>
+
+  <title>References and Suggested Readings</title>
+  
+  <!-- References updated  -->
+
+  <biblio type="raw"> <!-- was [1] -->
+  Author 
+  <title>Title</title>
+  Publisher
+  </biblio>
+  
+  </references>
+
+</chapter>
