@@ -17,13 +17,13 @@ This is also an attempt to become familiar with PreTeXt, a markdown language par
 
 <xi:include href="./frontmatter.xml" />
 
-<xi:include href="./number-systems.xml" />                <!-- Integers -->
+<xi:include href="./ch0.xml" />         
 
-<xi:include href="./algebraic-function-systems.xml" />
+<xi:include href="./ch1.xml" />
 
-<xi:include href="./graphing-functions.xml" />
+<xi:include href="./ch2.xml" />
 
-<xi:include href="./transcendental-function-systems.xml" />
+<xi:include href="./ch3.xml" />
 
 <xi:include href="./backmatter.xml" />
 
