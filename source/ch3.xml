@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<chapter xml:id="low-degree" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Quadratics and Cubics</title>
+
+    <introduction>
+        <p>this stuff</p>
+    </introduction>
+
+    <section xml:id="squaring">
+        <title>Squaring</title>
+    </section>
+
+    <section xml:id="squaring">
+        <title>Square Roots</title>
+    </section>
+
+    <section xml:id="quadratics">
+        <title>Quadratic Functions</title>
+    </section>
+  
+<exercises>
+
+  <title>Exercises</title>
+  
+</exercises>
+  
+<references>
+
+  <title>References and Suggested Readings</title>
+  
+  <!-- References updated  -->
+
+  <biblio type="raw"> <!-- was [1] -->
+  Author 
+  <title>Title</title>
+  Publisher
+  </biblio>
+  
+  </references>
+
+</chapter>
