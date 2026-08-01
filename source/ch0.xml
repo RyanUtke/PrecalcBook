@@ -146,46 +146,46 @@
                 The odometer of a car reads the following mileage at the following times:
                 <table>
                     <tabular halign="center">
-                        <hrow header="yes">
+                        <row header="yes">
                             <cell>
                                 Time
                             </cell>
                             <cell>
                                 Mileage
                             </cell>
-                        </hrow>
-                        <hrow>
+                        </row>
+                        <row>
                             <cell>
                                 9:00am
                             </cell>
                             <cell>
                                 12,480 mi
                             </cell>
-                        </hrow>
-                        <hrow>
+                        </row>
+                        <row>
                             <cell>
                                 10:30am
                             </cell>
                             <cell>
                                 12,551 mi
                             </cell>
-                        </hrow>
-                        <hrow>
+                        </row>
+                        <row>
                             <cell>
                                 11:00am
                             </cell>
                             <cell>
                                 12,590 mi
                             </cell>
-                        </hrow>
-                        <hrow>
+                        </row>
+                        <row>
                             <cell>
                                 1:30pm
                             </cell>
                             <cell>
                                 12,590 mi
                             </cell>
-                        </hrow>
+                        </row>
                     </tabular>
                 </table>
                 <ol>
