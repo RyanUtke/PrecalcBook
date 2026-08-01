@@ -116,14 +116,92 @@
         <title>
             Exercises
         </title>
-    
+
         <exercise>
-            <statement>
-                <p>
-                    Write a computer program that will implement the Euclidean algorithm.  The program should accept two positive integers <m>a</m> and <m>b</m> as input and should output <m>\gcd( a,b)</m> as well as integers <m>r</m> and <m>s</m> such that <md>\gcd( a,b) = ra + sb</md>.
-                </p>
-            </statement>
+            <title>
+                Two candles.
+            </title>
+            <p>
+                A thick candle 20 cm tall and a thin candle 30 cm tall are lit at the same time. After one hour, the thick candle is 18 cm tall and the thin candle is 24 cm tall.
+            </p>
+            <ol>
+                <li>
+                    Which candle is burning faster? Faster in what sense?
+                </li>
+                <li>
+                    Will the thin candle ever be shorter than the thick one? When?
+                </li>
+                <li>
+                    What would you measure, and in what units, to settle these questions?
+                </li>
+            </ol>
+            <!-- Seeds: quantity vs. number, units, rate as ratio (cm per hour) vs. amount (cm lost), constant-rate extrapolation. The "faster" ambiguity — total wax burned vs. height lost per hour — is the ratio/amount distinction stated by a situation. -->
         </exercise>
+
+        <exercise>
+            <title>
+                Road trip.
+            </title>
+            <p>
+                The odometer of a car reads the following mileage at the following times:
+                <table>
+                    <tabular halign="center">
+                        <hrow header="yes">
+                            <cell>
+                                Time
+                            </cell>
+                            <cell>
+                                Mileage
+                            </cell>
+                        </hrow>
+                        <hrow>
+                            <cell>
+                                9:00am
+                            </cell>
+                            <cell>
+                                12,480 mi
+                            </cell>
+                        </hrow>
+                        <hrow>
+                            <cell>
+                                10:30am
+                            </cell>
+                            <cell>
+                                12,551 mi
+                            </cell>
+                        </hrow>
+                        <hrow>
+                            <cell>
+                                11:00am
+                            </cell>
+                            <cell>
+                                12,590 mi
+                            </cell>
+                        </hrow>
+                        <hrow>
+                            <cell>
+                                1:30pm
+                            </cell>
+                            <cell>
+                                12,590 mi
+                            </cell>
+                        </hrow>
+                    </tabular>
+                </table>
+                <ol>
+                    <li>
+                        What happened between 11:00 and 1:30?
+                    </li>
+                    <li>
+                        Were they driving faster before or after 10:15? How do you know from the table?
+                    </li>
+                    <li>
+                        Estimate the odometer at 10:00. What are you assuming?
+                    </li>
+                </ol>
+                <!-- Seeds: coordinating two quantities from a table, computing a rate from two readings, interpolation and its assumptions (what a table does and does not determine — forward thread to Ch. 2). -->
+        </exercise>
+        
         <exercise>
             <p>
                 Exercise without a statement...
