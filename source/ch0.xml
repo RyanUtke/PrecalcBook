@@ -202,12 +202,36 @@
             </p>
                 <!-- Seeds: coordinating two quantities from a table, computing a rate from two readings, interpolation and its assumptions (what a table does and does not determine — forward thread to Ch. 2). -->
         </exercise>
-        
+
         <exercise>
+            <title>
+                Heating water.
+            </title>
             <p>
-                Exercise without a statement...
-            </p>
+                You are boiling water on a stove. The following table records the temperature each minute: 
+                <table>
+                    <tabular halign="center">
+                        <row header="yes">
+                            <cell>
+                                Time
+                            </cell>
+                            <cell>
+                                Temperature (C)
+                            </cell>
+                        </row>
+                    </tabular>
+                </table>
+                <ol>
+                    <li>
+                        Is the temperature rising at a steady rate? How would you check with only the table?
+                    </li>
+                    <li>
+                        When will it boil? Is your method trustworthy?
+                    </li>
+                </ol>
+                <!-- Seeds: equal time steps with unequal temperature steps -- the first non-constant rate, met before any function class exists to explain it. -->
         </exercise>
+        
     </exercises>
     
     <references>
