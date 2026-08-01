@@ -3,11 +3,12 @@
 <chapter xml:id="quantities" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Quantity: Counting and Measuring (Alt: Quantities and Change</title>
 
+    <section xml:id="number-systems">Number Systems</section>
     <introduction>
         <p>Number systems, <m>\mathbb{N}</m>, <m>\mathbb{Z}</m>, <m>\mathbb{Q}</m>, <m>\mathbb{R}</m></p>
     </introduction>
 
-    <section xml:id="integers">
+    <subsection xml:id="integers">
         <title>The Integers <m>\mathbb{Z}</m></title>
 
         <p>The integers are the basic number system we are all familiar with, positive and negative whole numbers, and zero. We can solve any additive equation in this system.</p>
@@ -40,9 +41,9 @@
         </notation>
         </p>
         
-    </section>
+    </subsection>
 
-    <section xml:id="rationals">
+    <subsection xml:id="rationals">
     <title>
         The Rationals <m>\mathbb{Q}</m>
     </title>
@@ -50,9 +51,29 @@
     <p>
     Now we can solve linear equations... (almost, multiplication by <m>0</m>...)
     </p>
-        
-    </section>
     
+    </subsection>
+
+    <subsection xml:id="reals">
+        <title>
+            The Reals <m>\mathbb{R}</m>
+        </title>
+
+        <p>
+        We can now solve some equations, like <md>x^2 -3\cdot x + 4 = 2</md> (quadratic equation)
+        </p>
+        
+    </subsection>
+
+    <subsection xml:id="polynomials-as-numbers">
+        <title>
+            Polynomials as a Number System
+        </title>
+        <p>
+            Is this really appropriate? Might be more confusing than helpful...
+        </p>
+    </subsection>
+
 <exercises>
 
   <title>Exercises</title>
